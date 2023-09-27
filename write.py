@@ -1,0 +1,6 @@
+f=open("text2","w")
+print(f)
+f.write("this is text2")
+f.write("\ni am learning python")
+f.write("\nvery simple programming language")
+f.close()
