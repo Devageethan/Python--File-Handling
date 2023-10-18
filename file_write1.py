@@ -1,0 +1,5 @@
+f1=open("file1","r+")
+f1.write("created one file1 by python")
+f1.close()
+f1=open("file1")
+print(f1.read())

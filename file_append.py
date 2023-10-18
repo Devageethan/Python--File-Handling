@@ -1,0 +1,6 @@
+f=open("demo","a")
+print(f)
+f.write("\ni am appending a msg to demo file")
+f.close()
+f=open("demo")
+print(f.read())

@@ -1,0 +1,7 @@
+f=open("demo")
+print(f)
+#print(f.read())
+#print(f.readline())
+print(f.readline())
+print(f.read(4))
+f.close()
